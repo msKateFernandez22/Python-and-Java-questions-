@@ -1,1 +1,44 @@
-# Python-and-Java-questions-
+questions_java = [
+    {"question": "int x = 10 _____", "answer": ";"},
+    {"question": "public _____ void main(String[] args) {", "answer": "static"},
+    {"question": "System.out.println('Hello, World! _____", "answer": ")"},
+    {"question": "_____ main(String[] args) {", "answer": "void"},
+    {"question": "int x == 5 _____", "answer": "="},
+    {"question": "if (x > 5) _____", "answer": "{"},
+    {"question": "String greeting = 'Hello World _____", "answer": "'"},
+    {"question": "public class Main() _____", "answer": "{"},
+    {"question": "x = 10 _____", "answer": "int"},
+    {"question": "int x = 5 ** 2 _____", "answer": "*"},
+    {"question": "double value = 5.5 _____", "answer": ";"},
+    {"question": "if (x > 0) _____", "answer": "{"},
+    {"question": "System.out.println('Error' _____", "answer": ");"},
+    {"question": "public _____ class MyClass {}", "answer": "class"},
+    {"question": "for (int i = 0; i < 10; i++) _____", "answer": "{}"},
+    {"question": "try { System.out.println('Hello'); } _____ (Exception e) {}", "answer": "catch"},
+    {"question": "String str = 'Java'; System.out.println(str._____('J'));", "answer": "indexOf"},
+    {"question": "int[] arr = new int[10]; arr[0] = 5 _____", "answer": ";"},
+    {"question": "public class Test { private int x = 10; public int getX() { return x; } }", "answer": "private"},
+    {"question": "____ public static void main(String[] args) {", "answer": "public"}
+]
+questions_py = [
+    {"question": "if x > 5 _____", "choices": ["()", "{", ":", "[]"], "answer": ":"},
+    {"question": "if x = 10 _____", "choices": ["**", "==", "/", "&"], "answer": "=="},
+    {"question": "print 'Hello World' _____", "choices": ["print('Hello World')", "print{'Hello World'}", "print['Hello World']", "print<'Hello World>"], "answer": "print('Hello World')"},
+    {"question": "def greet _____", "choices": ["def greet=:", "def greet():", "def greet()", "def greet[]"], "answer": "def greet():"},
+    {"question": "print 'Hello World' _____", "choices": ["()", "=", "{}", "[]"], "answer": "()"},
+    {"question": "print(a) _____", "choices": ["variable not defined", "print=('a')", "output: a", "print= 'a'"], "answer": "variable not defined"},
+    {"question": "10 = x _____", "choices": ["x=10", "x=(10)", "(10)=x", "x=(10):"], "answer": "x=10"},
+    {"question": "def = 5 _____", "choices": ["reserved keyword", "method", "true", "return type"], "answer": "reserved keyword"},
+    {"question": "say_hello() _____", "choices": ["true", "method", "function", "undefined function"], "answer": "undefined function"},
+    {"question": "x, y = (1, 2, 3) _____", "choices": ["true", "x, y= {1, 2, 3}", "x, y, z=[1, 2, 3]", "x, y, z=(1, 2, 3)"], "answer": "x, y, z=(1, 2, 3)"},
+    {"question": "def add(x, y): return x + y _____", "choices": ["function", "method", "method with parameters", "undefined function"], "answer": "function"},
+    {"question": "x = [1, 2, 3] _____", "choices": ["tuple", "list", "set", "dictionary"], "answer": "list"},
+    {"question": "if x in range(10): _____", "choices": ["loop", "conditional", "range function", "slice"], "answer": "conditional"},
+    {"question": "x += 10 _____", "choices": ["x = x + 10", "x = 10 + x", "x = x - 10", "x = 10 - x"], "answer": "x = x + 10"},
+    {"question": "def multiply(a, b=2): _____", "choices": ["function with default argument", "method", "function without parameters", "reserved keyword"], "answer": "function with default argument"},
+    {"question": "print([x for x in range(5)]) _____", "choices": ["[0, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "[0, 1, 2, 3]", "[0, 1, 2, 3, 4, 5]"], "answer": "[0, 1, 2, 3, 4]"},
+    {"question": "x = {'a': 1, 'b': 2} _____", "choices": ["tuple", "list", "set", "dictionary"], "answer": "dictionary"},
+    {"question": "try: print(x) except NameError: _____", "choices": ["exception handling", "variable not defined", "SyntaxError", "undefined exception"], "answer": "exception handling"},
+    {"question": "def subtract(a, b): return a - b _____", "choices": ["function", "method", "function with parameters", "undefined function"], "answer": "function"}
+]
+
